@@ -1,0 +1,9 @@
+KNN和RF使用
+from sklearn.externals import joblib
+model = joblib.load(path)
+model.predict(x_test)
+
+CNN和LSTM
+import tensorflow as tf
+cnn1= tf.keras.models.load_model("cnnr_ref")
+cnn1.predict(x_test)

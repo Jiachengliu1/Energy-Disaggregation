@@ -1,0 +1,29 @@
+/*
+* @Author: Lance
+* @Date:   2020-03-31 23:44:03
+* @Last Modified by:   Lance
+* @Last Modified time: 2021-04-15 14:53:25
+*/
+.search-wrap{
+	margin-bottom: 20px;
+	.form-group{
+		margin-right: 10px;
+		.form-control{
+			width: 210px;
+		}
+	}
+}
+.tableBottom{
+	margin-bottom: 600px;
+}
+.hyperLink:hover{
+	cursor: pointer;
+}
+.fallBack{
+	margin-bottom: 20px;
+}
+// 去除鼠标点击页数出现的边框
+*:focus { 
+	outline: none;
+}
+
